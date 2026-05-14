@@ -7,11 +7,29 @@ permalink: /teaching/
 
 ## Teaching
 
+On this page you'll find materials for courses that I have taught at Cornell.
+
 <div class="section-card">
+<h3>AEP 4400/5400 Nonlinear and Quantum Optics</h3>
+<p>A course offered to upper-level undergraduates and graduate students presenting a unified classical and quantum treatment of nonlinear optics. Topics covered include the nonlinear susceptibility and its formal properties, second- and third-order classical nonlinear optics, quantization of the electromagnetic field in nonlinear media, quantum states of light, sub-shot-noise interferometry, and the quantum theory of parametric amplifiers, parametric oscillators, and squeezing via the Kerr effect.</p>
 <ul>
-<li>Physics 1, 2, 3: The Feynman Lectures on Physics (1961&#8211;63) <a href="https://www.feynmanlectures.caltech.edu/">Textbook here!</a></li>
-<li>Physics 219: Quantum Computing (1986)</li>
-<li>Graduate QED Seminar (1953&#8211;88)</li>
-<li>Physics X: Informal undergraduate Q&amp;A sessions (1961&#8211;78)</li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/nl_response.pdf">Nonlinear response</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/chi2.pdf">Effects arising from second-order nonlinearity</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/chi3.pdf">Effects arising from third-order nonlinearity</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/quantum_light.pdf">Quantum states of light</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/qnlo.pdf">Quantum nonlinear optics</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/combined_notes_0428.pdf">Combined notes</a></li>
+</ul>
+</div>
+
+<div class="section-card">
+<h3>AEP 4230/5230 Statistical Physics</h3>
+<p>An upper-level undergraduate course on statistical physics, covering thermodynamics, probability, classical and quantum statistical mechanics, interacting systems, and Langevin dynamics. In 2025 we used Kardar's <em>Statistical Physics of Particles</em> as the text for most of the course. You can find typed lecture notes for the first portion of the course here, with typed notes for the rest forthcoming.</p>
+<ul>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/thermodynamics.pdf">Thermodynamics</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/probability.pdf">Probability</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/classical_stat_mech.pdf">Classical Statistical Mechanics</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/interacting_classical.pdf">Interacting Systems</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/notes_for_second_half.pdf">Combined Notes</a></li>
 </ul>
 </div>

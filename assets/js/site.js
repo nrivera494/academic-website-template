@@ -54,6 +54,10 @@
       var query = this.value.toLowerCase().trim();
       var entries = document.querySelectorAll('[data-pub-searchable]');
 
+      if (entries.length === 1 && entries[0].classList.contains('publication-list')) {
+        entries = entries[0].querySelectorAll('p, li');
+      }
+
       entries.forEach(function (entry) {
         if (!query) {
           entry.style.display = '';

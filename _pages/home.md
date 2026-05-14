@@ -9,31 +9,22 @@ permalink: /
 <p class="home-hero-sub">{{ site.title }}, {{ site.institution }}</p>
 
 <div class="chip-container" markdown="0">
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Electrodynamics</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Path Integrals</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Superfluidity</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Parton Model</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Computing</a>
-<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanotechnology</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Light-Matter Interactions</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Quantum Optics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nonlinear Optics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Nanophotonics</a>
+<a href="{{ site.url }}{{ site.baseurl }}/research" class="chip">Computational Photonics</a>
 </div>
 
-Theoretical physics is a branch of physics that focuses on the development of mathematical models and theories to understand and explain natural phenomena.
-It plays a crucial role in our understanding of the fundamental laws of the universe and the fundamental particles that make up all matter.
-Research in theoretical physics helps us to make predictions about how the universe works and to test these predictions through experiments.
+Welcome! Here, you can learn about our research on light-matter interactions. Light-matter interactions are central to a wide range of technologies and applications such as lasers, sensors, materials characterization, optical communication, computing, and medical imaging. With my collaborators, I work on identifying new fundamental effects in light-matter interactions, and translating these new effects into new devices and new applications.
 
-<div class="callout callout-success" markdown="0">
-<div class="callout-title"><i class="fa-solid fa-award callout-icon"></i> Nobel Prize in Physics, 1965</div>
-<p>Awarded the Nobel Prize jointly with Julian Schwinger and Shin'ichiro Tomonaga for fundamental work in quantum electrodynamics, with deep-ploughing consequences for the physics of elementary particles.</p>
-</div>
+Our lab does both theoretical and experimental work, and the interaction between theory and experiment is a basic feature of our work. Also of major importance to us is developing first-principles computational methods to accurately predict the results of experiments. We have a strong track-record of developing models that both closely track experiments and predict new effects.
 
 <div class="banner-frame" markdown="0">
-<img src="{{ site.url }}{{ site.baseurl }}/images/banner.jpg" alt="Feynman diagrams" loading="lazy">
-<div class="banner-caption">Examples of Feynman diagrams. Feynman R., <em>The theory of positrons. Phys. Rev.</em> (1949)</div>
+<img src="{{ site.url }}{{ site.baseurl }}/images/research/noise-immune-correlations.png" alt="Noise-immune quantum correlations experiment schematic" loading="lazy">
+<div class="banner-caption">Noise-immune quantum correlations in intense light.</div>
 </div>
 
 ### About me
 
-I am a physicist working in the field of quantum mechanics and quantum electrodynamics.
-I received my undergraduate degree in physics from the Massachusetts Institute of Technology (MIT) in 1939 and went on to earn my PhD from Princeton University in 1942.
-After completing my doctoral studies, I worked on the Manhattan Project, where I helped develop the first atomic bombs.
-After the war, I returned to academia, holding teaching and research positions at Cornell and now at the California Institute of Technology.
+I am an Assistant Professor in the School of Applied and Engineering Physics at Cornell University. My research focuses on the physics of light and matter, especially quantum and nonlinear optical systems where new physical effects can be understood, controlled, and translated into new technologies.

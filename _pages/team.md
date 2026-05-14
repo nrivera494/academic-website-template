@@ -7,9 +7,7 @@ permalink: /team/
 
 ## Team
 
-**We are looking for new team members!**
-
-## PI
+## Principal Investigator
 
 <div class="section-card">
 <div class="pi-card">
@@ -17,26 +15,27 @@ permalink: /team/
 <div>
 <h3 class="pi-name">{{ site.name }}</h3>
 <p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
+<p>Ph.D., Massachusetts Institute of Technology (2022)</p>
 <div class="pi-links">
+<a href="{{ site.url }}{{ site.baseurl }}/about/" class="icon-link" title="Bio"><i class="fa-solid fa-user"></i></a>
 {% if site.email %}<a href="mailto:{{ site.email }}" class="icon-link" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
-{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
-{% if site.links.cv and site.links.cv != "" %}<a href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" class="icon-link" title="CV"><i class="ai ai-cv"></i></a>{% endif %}
-{% if site.links.github and site.links.github != "" %}<a href="{{ site.links.github }}" class="icon-link" title="GitHub"><i class="fa-brands fa-github"></i></a>{% endif %}
-{% if site.links.researchgate and site.links.researchgate != "" %}<a href="{{ site.links.researchgate }}" class="icon-link" title="ResearchGate"><i class="ai ai-researchgate"></i></a>{% endif %}
-</div>
-{% if site.data.pi[0].education %}
-<ul style="margin-top: var(--space-4);">
-{% for education in site.data.pi[0].education %}
-<li>{{ education | replace: "-","&#8211;" }}</li>
-{% endfor %}
-</ul>
+{% if site.links.cv and site.links.cv != "" %}
+  {% if site.links.cv contains "http" %}
+  <a href="{{ site.links.cv }}" class="icon-link" title="CV"><i class="ai ai-cv"></i></a>
+  {% else %}
+  <a href="{{ site.url }}{{ site.baseurl }}/{{ site.links.cv }}" class="icon-link" title="CV"><i class="ai ai-cv"></i></a>
+  {% endif %}
 {% endif %}
+{% if site.links.google_scholar and site.links.google_scholar != "" %}<a href="{{ site.links.google_scholar }}" class="icon-link" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+{% if site.links.linkedin and site.links.linkedin != "" %}<a href="{{ site.links.linkedin }}" class="icon-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>{% endif %}
+{% if site.links.twitter and site.links.twitter != "" %}<a href="{{ site.links.twitter }}" class="icon-link" title="X"><i class="fa-brands fa-x-twitter"></i></a>{% endif %}
+</div>
 </div>
 </div>
 </div>
 
 {% if site.data.team_members.size > 0 %}
-## Current Students and Postdocs
+## Postdocs and Graduate Students
 
 <div class="team-grid">
 {% for member in site.data.team_members %}
@@ -54,28 +53,3 @@ permalink: /team/
 {% endfor %}
 </div>
 {% endif %}
-
-{% if site.data.alumni.size > 0 %}
-## Alumni
-
-<div class="section-card">
-<table class="alumni-table">
-<thead>
-<tr><th>Name</th><th>Duration</th><th>Current Position</th></tr>
-</thead>
-<tbody>
-{% for member in site.data.alumni %}
-<tr>
-<td>{{ member.name }}</td>
-<td>{{ member.duration }}</td>
-<td>{{ member.info }}</td>
-</tr>
-{% endfor %}
-</tbody>
-</table>
-</div>
-{% endif %}
-
-## Administrative Support
-
-<a href="mailto:exampleemail@gmail.com">Example staff</a> is helping us (and other groups) with administration.

@@ -1,0 +1,19 @@
+current directory: /Users/nr462/Desktop/academic-website-template/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for rb_io_mode_t in ruby/io.h... yes
+creating Makefile
+
+current directory: /Users/nr462/Desktop/academic-website-template/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make -j11 DESTDIR\= sitearchdir\=./.gem.20260514-53050-l2yv7s sitelibdir\=./.gem.20260514-53050-l2yv7s clean
+
+current directory: /Users/nr462/Desktop/academic-website-template/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make -j11 DESTDIR\= sitearchdir\=./.gem.20260514-53050-l2yv7s sitelibdir\=./.gem.20260514-53050-l2yv7s
+compiling stringio.c
+linking shared-object stringio.bundle
+
+current directory: /Users/nr462/Desktop/academic-website-template/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make -j11 DESTDIR\= sitearchdir\=./.gem.20260514-53050-l2yv7s sitelibdir\=./.gem.20260514-53050-l2yv7s install
+/usr/bin/install -c -m 0755 stringio.bundle ./.gem.20260514-53050-l2yv7s
+
+current directory: /Users/nr462/Desktop/academic-website-template/vendor/bundle/ruby/4.0.0/gems/stringio-3.2.0/ext/stringio
+make DESTDIR\= sitearchdir\=./.gem.20260514-53050-l2yv7s sitelibdir\=./.gem.20260514-53050-l2yv7s clean

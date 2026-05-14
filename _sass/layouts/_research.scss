@@ -19,6 +19,12 @@
   overflow: hidden;
   transition: box-shadow var(--transition-slow), transform var(--transition-slow);
 
+  &.research-card-link {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+  }
+
   &:hover {
     box-shadow: var(--shadow-lg);
     transform: translateY(-3px);
@@ -53,4 +59,26 @@
     color: var(--text-secondary);
     line-height: 1.7;
   }
+}
+
+.research-detail-figure {
+  margin: var(--space-6) 0;
+
+  img {
+    width: 100%;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+  }
+
+  p {
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    line-height: 1.6;
+    margin-top: var(--space-3);
+  }
+}
+
+.research-detail-figure-narrow {
+  max-width: 560px;
 }

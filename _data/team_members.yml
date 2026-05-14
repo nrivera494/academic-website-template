@@ -1,20 +1,18 @@
 # Current students and postdocs.
 # Each entry needs: name, photo, info
-# Optional: email, website, scholar, github, researchgate, cv
-# Photos go in images/ or images/team/
+# Optional: email, website, scholar, github
 
-- name: George Zweig
-  photo: team/george-zweig.svg
-  info: PhD Student, Quark Model
+- name: Dong Beom Kim
+  photo: team/dong-beom-kim.jpeg
+  info: Postdoctoral Associate; Ph.D., University of Illinois Urbana-Champaign (2025)
+  email: dk932@cornell.edu
 
-- name: Albert Hibbs
-  photo: team/albert-hibbs.svg
-  info: PhD Student, Quantum Mechanics
+- name: Jay Sun
+  photo: team/jay-sun.jpg
+  info: Graduate student in Applied Physics; B.S., University of California, San Diego (2023)
+  email: ks2475@cornell.edu
 
-- name: Thomas Curtright
-  photo: team/thomas-curtright.svg
-  info: PhD Student, Quantum Field Theory
-
-- name: "This could be you!"
-  photo: rock.jpg
-  info: See openings for more info
+- name: Fadi Farook
+  photo: team/fadi-farook.jpeg
+  info: Graduate student in Applied Physics; B.S., University of Toronto (2025)
+  email: ff274@cornell.edu
