@@ -1,22 +1,22 @@
 // =============================================================
-// Typography — Source Serif + DM Sans
+// Typography — Helvetica experiment
 // =============================================================
-// Fonts loaded via <link> in head.html.
-// Source Serif 4: elegant variable-weight serif for headings
-// DM Sans: clean geometric sans for body with personality
+// Previous fonts:
+// Body: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif
+// Headings: 'Source Serif 4', 'Georgia', 'Times New Roman', serif
 
 body {
-  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, sans-serif;
+  font-family: var(--font-body);
   font-size: 1rem;
   line-height: 1.75;
   font-optical-sizing: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Source Serif 4', 'Georgia', 'Times New Roman', serif;
+  font-family: var(--font-heading);
   font-weight: 700;
-  letter-spacing: -0.01em;
+  // Previous letter-spacing: -0.01em;
+  letter-spacing: 0;
   color: var(--text-primary);
   margin-top: var(--space-10);
   margin-bottom: var(--space-4);
@@ -58,7 +58,7 @@ em, i {
 }
 
 code, pre {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: var(--font-mono);
   font-size: 0.875em;
 }
 
