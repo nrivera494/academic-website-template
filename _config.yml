@@ -15,7 +15,7 @@ links:
   github: ""
   researchgate: ""
   orcid: ""
-  twitter: "https://twitter.com/NickRivera137"
+  twitter: ""
   linkedin: "https://www.linkedin.com/in/nicholas-rivera-23301368/"
   cv: "https://docs.google.com/document/d/1yH9aWhOZxExZXXJHmC1L7m9i1E8_R36DvsKAxSB9KY4/edit"
 
@@ -23,7 +23,7 @@ links:
 # STEP 3: Site Settings
 # ============================================================
 # Previous accent: "#1a7a6d"
-accent_color: "#b31b1b"      # theme color for links and buttons
+accent_color: "#2563eb"      # theme color for links and buttons
 dark_mode: true              # show dark mode toggle in navbar
 description: "Academic webpage of Nicholas Rivera"
 baseurl: ""

@@ -30,7 +30,7 @@
     height: 100px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 26%;
+    object-position: center 22%;  // originallly 26
     margin-bottom: var(--space-4);
     border: 2px solid var(--bg-primary);
     box-shadow: 0 0 0 1px var(--border-color);
@@ -82,7 +82,7 @@
     height: 160px;
     border-radius: var(--radius-xl);
     object-fit: cover;
-    object-position: center 26%;
+    object-position: center 20%; // originallly 26
     border: 2px solid var(--bg-primary);
     box-shadow:
       0 0 0 1px var(--border-color),
