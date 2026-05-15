@@ -7,7 +7,7 @@ permalink: /research/
 
 ## Research
 
-<div class="research-grid">
+<div class="research-grid" markdown="0">
 
 <a class="research-card research-card-link" href="{{ site.url }}{{ site.baseurl }}/research/programmable-quantum-noise/">
 <img src="{{ site.url }}{{ site.baseurl }}/images/research/programmable-quantum-noise.png" class="research-thumb" alt="Programmable control and optimization of quantum noise">

@@ -23,7 +23,7 @@ links:
 # STEP 3: Site Settings
 # ============================================================
 # Previous accent: "#1a7a6d"
-accent_color: "#2563eb"      # theme color for links and buttons
+accent_color: "#2563eb"      # theme color for links and buttons # originally 
 dark_mode: true              # show dark mode toggle in navbar
 description: "Academic webpage of Nicholas Rivera"
 baseurl: ""
