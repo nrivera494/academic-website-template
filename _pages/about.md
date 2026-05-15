@@ -9,7 +9,7 @@ permalink: /about/
 
 <div class="section-card">
 <div class="pi-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="lazy">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="eager">
 <div>
 <h3 class="pi-name">{{ site.name }}</h3>
 <p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>

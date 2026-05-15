@@ -11,7 +11,7 @@ permalink: /team/
 
 <div class="section-card">
 <div class="pi-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="lazy">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ site.photo }}" class="pi-photo" alt="{{ site.name }}" loading="eager">
 <div>
 <h3 class="pi-name">{{ site.name }}</h3>
 <p style="font-style: italic; color: var(--text-secondary);">{{ site.title }}, {{ site.institution }}</p>
@@ -40,7 +40,7 @@ permalink: /team/
 <div class="team-grid">
 {% for member in site.data.team_members %}
 <div class="team-card">
-<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy">
+<img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" class="team-photo" alt="{{ member.name }}" loading="lazy"{% if member.photo_position %} style="object-position: {{ member.photo_position }};"{% endif %}>
 <h4 class="team-name">{{ member.name }}</h4>
 <p class="team-info">{{ member.info }}</p>
 <div class="team-links">
