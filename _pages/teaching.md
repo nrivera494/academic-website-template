@@ -21,6 +21,7 @@ On this page you'll find materials for courses that I have taught at Cornell.
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/qnlo.pdf">Quantum nonlinear optics</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/combined_notes_0428.pdf">Combined notes</a></li>
 </ul>
+<p>Some additional materials: <a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204400/nlo_syllabus_sp2026.pdf">Syllabus</a>, Practice Exams (<a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204400/practice_exam.pdf">Exam 1</a>, <a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204400/practice_exam_2.pdf">Exam 2</a>, <a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204400/practice_final.pdf">Final Exam</a>).</p>
 </div>
 
 <div class="section-card">
@@ -34,6 +35,7 @@ On this page you'll find materials for courses that I have taught at Cornell.
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/notes_for_second_half.pdf">Combined notes from second half of class</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/aep4230_qnoise.pdf">Quantum noise</a></li>
 </ul>
+<p>Some additional materials: <a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204320/aep4230_syllabus.pdf">Syllabus</a>, Practice Exams (<a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204320/exam1_practice.pdf">Exam 1</a>, <a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204320/exam2_practice.pdf">Exam 2</a>, <a href="{{ site.url }}{{ site.baseurl }}/site_contents/aep%204320/final_exam_practice.pdf">Final Exam</a>).</p>
 </div>
 
 <div class="section-card">
