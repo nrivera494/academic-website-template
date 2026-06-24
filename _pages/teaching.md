@@ -33,3 +33,14 @@ On this page you'll find materials for courses that I have taught at Cornell.
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/notes_for_second_half.pdf">Combined Notes</a></li>
 </ul>
 </div>
+
+<div class="section-card">
+<h3>Selected slides from previous talks</h3>
+<p>Here, you'll find some slides from various talks on research topics.</p>
+<ul>
+<li>Talk on controlling quantum noise in multimode nonlinear systems presented at Joint Quantum Institute (<a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/jqi_2026.pdf">pdf</a>; <a href="https://github.com/nrivera494/multimode-noise-modeling">repo associated with the talk</a>)</li>
+<li>Talk on theory of quantum nonlinear multimode noise dynamics in fibers (<a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/CLEO%202025%20--%20Multimode%20fiber%20noise.pdf">pdf</a>; presented by Jamison Sloan as a Highlighted Talk at CLEO:2025)</li>
+<li>Guest Lecture for MIT's 18.369 Mathematical Methods of Nanophotonics (Spring 2024) on modeling nonequilibrium radiation such as in scintillators (<a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/nonequilibrium_radiation.pdf">pdf</a>)</li>
+<li>Talk presented at Harvard Condensed Matter Physics seminar on PhD thesis work (2021) (<a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/Harvard_CMP_Seminar_1021.pdf">pdf</a>)</li>
+</ul>
+</div>
