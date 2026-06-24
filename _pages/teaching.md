@@ -39,6 +39,15 @@ On this page you'll find materials for courses that I have taught at Cornell.
 </div>
 
 <div class="section-card">
+<h3>Macroscopic Quantum Electrodynamics</h3>
+<p>Notes co-authored with Jamison Sloan summarizing topics presented to undergraduate researchers covering time-dependent perturbation theory, linear response, field quantization in dielectrics, atom-photon interaction, and macroscopic quantum electrodynamics. Formed part of the basis for an expanded review presenting a high-level review of the field authored with Ido Kaminer.</p>
+<ul>
+<li><a href="{{ site.url }}{{ site.baseurl }}/site_contents/lmi_lectures_2019/LMI_notes.pdf">Notes</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/site_contents/lmi_lectures_2019/NatureReviewsPhysics_2020_photonic_quasiparticles.pdf">Review</a></li>
+</ul>
+</div>
+
+<div class="section-card">
 <h3>Selected slides from previous talks</h3>
 <p>Here, you'll find some slides from various talks on research topics.</p>
 <ul>
