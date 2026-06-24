@@ -13,6 +13,7 @@ On this page you'll find materials for courses that I have taught at Cornell.
 <h3>AEP 4400/5400 Nonlinear and Quantum Optics</h3>
 <p>A course offered to upper-level undergraduates and graduate students presenting a unified classical and quantum treatment of nonlinear optics. Topics covered include the nonlinear susceptibility and its formal properties, second- and third-order classical nonlinear optics, quantization of the electromagnetic field in nonlinear media, quantum states of light, sub-shot-noise interferometry, and the quantum theory of parametric amplifiers, parametric oscillators, and squeezing via the Kerr effect.</p>
 <ul>
+<li><a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/aep4400_first_class.pdf">Overview of course</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/nl_response.pdf">Nonlinear response</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/chi2.pdf">Effects arising from second-order nonlinearity</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4400/chi3.pdf">Effects arising from third-order nonlinearity</a></li>
@@ -30,7 +31,8 @@ On this page you'll find materials for courses that I have taught at Cornell.
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/probability.pdf">Probability</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/classical_stat_mech.pdf">Classical Statistical Mechanics</a></li>
 <li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/interacting_classical.pdf">Interacting Systems</a></li>
-<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/notes_for_second_half.pdf">Combined Notes</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/papers/teaching/aep-4230/notes_for_second_half.pdf">Combined notes from second half of class</a></li>
+<li><a href="{{ site.url }}{{ site.baseurl }}/site_contents/assorted%20slides/aep4230_qnoise.pdf">Quantum noise</a></li>
 </ul>
 </div>
 
